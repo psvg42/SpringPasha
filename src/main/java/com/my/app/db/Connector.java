@@ -16,7 +16,7 @@ public class Connector {
 	String driverName = "com.mysql.jdbc.Driver";
 
 	// Create a connection to the database
-	private static String serverName = "localhost:3306";
+	private static String serverName = "localhost:3307";
 	private static String mydatabase = "news";
 	private static String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
 	private static String username = "root";
